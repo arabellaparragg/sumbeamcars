@@ -1,0 +1,23 @@
+[
+    {
+      "Make" : "Audi",
+      "Model" : "Faw plus",
+      "category": "standard",
+      "Persons": 5,
+      "suitcases": 3
+      },
+     {
+      "Make" : "Mercedes benz",
+      "Model" : "A4",
+      "Category": "Budget",
+      "Persons": 4,
+      "suitcases": 1
+      },
+     {
+      "Make" : "Volvo",
+      "Model" : "s50",
+      "Category": "Minivan",
+      "Persons": 5,
+      "Suitcases": 4
+      }
+    ]

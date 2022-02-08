@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+
+
+<head> 
+    <title>Rent a car / Sumbeamcars Inc. </title>
+<!--META INFO -->
+<meta charset="UTF-8">
+<meta name="description" content="This is about Sumbeamcars inc">
+<meta name="author" content="Arabella Parrag">
+<!--STYLESHEET CONNECT-->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--- HEADER TITLE AND LOGIN-->
+<header>
+    <div class="flexbox">
+    <div> <h1> SumbeamCars Inc. </h1> </div>
+    <div class="login"> <img src="images/loginicon.png" alt="LogInIcon"></div>
+    </div> 
+
+</header>
+
+<!--- HERO PIC AND SEARCH-->
+<div class="hero"> 
+    <div class="findcar" > 
+        
+        <div class="input">
+            <form action="/action_page.php">
+            <label for="I pick it up">I pick it up</label>
+            <input type="date" id="pickup" name="pickup">
+            <input type="submit" value="Submit">
+             </form>
+        </div>
+
+        <div class="input">
+            <form action="/action_page.php">
+            <label for="I hand it in">I hand it in</label>
+            <input type="date" id="handin" name="handin">
+            <input type="submit" value="Submit">
+             </form>
+        </div>
+
+        <div class="input">
+        <form action="/action_page.php">
+            <label for="person">Number of persons</label><br>
+            <input type="text" id="person" name="person" value="01234"><br>
+            <input type="submit" value="Submit">
+          </form> 
+        </div>
+
+        <div class="input">
+            <form action="/action_page.php">
+                <label for="suitcase">Number of suitcases</label><br>
+                <input type="text" id="suitcase" name="suitcase" value="0123"><br>
+                <input type="submit" value="Submit">
+              </form> 
+            </div>
+
+        <a href="#" class="button">Search</a>
+
+    </div>
+</div>
+
+
+<!--- CAR CARDS-->
+
+<h3>Results</h3>
+
+<div id="results">
+
+</div>
+
+<div id="others">
+
+</div>
+
+<div class="carcards" id="audi">
+    <div class="picture">
+        <img src="images/audi.jpg" alt="Audi car">
+    
+    </div>
+
+    <div class="name">
+        <h2> Audi Faw plus</h2>
+
+    </div>
+
+    <div class="info">
+        <p>Category: Standard</p> <br>
+        <p>Persons: 5 </p> <br>
+        <p>Suitcases:3 </p> <br>
+
+    </div>
+
+    <div class="pricebutton">
+      <div>  <h2> kr. 1856 </h2> </div>
+
+      <div> <a href="#" class="book" >Book Now</a> </div>
+    </div>
+</div>
+
+
+<div class="carcards" id="merci">
+    <div class="picture">
+        <img src="images/mercedes.jpg" alt="Mercedes car">
+    
+    </div>
+
+    <div class="name">
+        <h2> Mercedes benz A</h2>
+
+    </div>
+
+    <div class="info">
+        <p>Category: Budget</p> <br>
+        <p>Persons: 4 </p> <br>
+        <p>Suitcases: 1 </p> <br>
+
+    </div>
+
+    <div class="pricebutton">
+      <div>  <h2> kr. 1643 </h2> </div>
+
+      <div > <a href="#" class="book">Book Now</a> </div>
+    </div>
+</div>
+
+
+
+<div class="carcards" id="volvo">
+    <div class="picture">
+        <img src="images/volvo.jpg" alt="Volvo car">
+    
+    </div>
+
+    <div class="name">
+        <h2> Volvo s50</h2>
+
+    </div>
+
+    <div class="info">
+        <p>Category: Minivan</p> <br>
+        <p>Persons: 7 </p> <br>
+        <p>Suitcases: 4 </p> <br>
+
+    </div>
+
+    <div class="pricebutton">
+      <div>  <h2> kr. 2134 </h2> </div>
+
+      <div> <a href="#" class="book" >Book Now</a> </div>
+    </div>
+
+</div>
+
+
+<script src="javascript.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+
+h3 {
+    margin-left: 300px;
+}
+
+
+
+.flexbox {
+ padding-top: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+    display: flex;
+    position: relative;
+flex-direction: row;
+justify-content: space-between;
+padding-bottom: 50px;
+
+}
+
+.login img {
+height: 70px;
+}
+
+
+.hero {
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-image: url(images/herosmall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+    margin-bottom:100px;
+}
+
+.findcar {
+   
+    position: relative;
+    left: 40px;
+    top:80px;
+    background-color:grey;
+    width: 200px;
+    height: 200px;
+}
+
+.carcards {
+    border: solid black;
+    width: 600px;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+    margin:20px 400px;
+
+
+}
+
+.carcards img {
+    width: 100px;
+}
+
+.book {
+    
+    border: solid black 0.2px;
+    background-color: burlywood;
+    color: black;
+}
+
